@@ -1,0 +1,54 @@
+body {
+  /*Background color for entire page*/
+  background-color: GhostWhite;
+}
+.contactInfo li{
+  text-align : left;
+  font-weight : bold;
+}
+
+.contactInfo ::marker {
+  content : "";
+}
+
+.contactInfo img {
+  float : right;
+}
+
+.contactInfo h2 {
+  text-align : center
+}
+
+.contactInfo {
+  border-bottom-style: solid;
+  border-color : blue;
+  border-width : 1px;
+}
+
+#highlight {
+  text-align : center;
+  background-color : Lavender
+}
+
+.softSkills h3 {
+  text-align : center;
+}
+
+.softSkills table {
+  border-spacing: 1em 0;
+  text-align : left;
+}
+
+.skills table {
+  border-spacing: 1em 0;
+  text-align : left;
+}
+
+.education table {
+  border-spacing : 1em;
+  text-align : left;
+}
+
+.education td div {
+  font-weight : bold;
+}
